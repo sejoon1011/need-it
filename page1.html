@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<HTML>
+<HEAD>
+   <title>캠핑</title>
+    <STYLE>
+        *{
+            margin: 0;
+            padding: 0;
+            font-style: oblique
+            
+        }
+        h1{
+            text-align: center;
+            background-color: aquamarine;
+            
+        }
+        #search{
+            width: 500px;
+            height: 50px;
+            
+        }
+        #nav1, #nav1 ul{
+            list-style: none;
+            display: block;
+            width: 95%;
+        }
+        #nav1{
+            height: 44%;
+        }
+        li{
+            text-align: center;
+            list-style: none;
+        }
+        .nav-attribute{
+            text-align: center;
+            padding: 5%;
+            width: 15%;
+            font-size: 25px;
+            height: 30%;
+            border: 1px solid #000000;
+            border-width: 1px 0px 1px 0px;
+                
+        }
+        #section{
+            width: 100%;
+            height: 70%;
+        }
+        #body{
+            position: fixed;
+            width: 70%;
+            height: 70%;
+            border: 3px solid #000000;
+            margin-left: 15%;
+        }
+        #banner1{
+            position: absolute;
+            width: 15%;
+            height: 70%;
+/*            border: 3px solid #000000;*/
+        }
+        #banner2{
+            position: fixed;
+            margin-left: 85%;
+            width: 15%;
+            height: 70%;
+            border: 3px solid #000000;
+        }
+        .banner{
+            width: 100%;
+            height: 100%;
+        }
+        a{
+            text-decoration: none;
+            color: #000000;
+        }
+    </STYLE>
+    
+    
+    </HEAD>
+    <BODY>
+            <H1>
+            <a href = "page1.html">여행을 떠나요</a>
+            <INPUT TYPE="TEXT" ID="search"/>
+        </H1>
+        <div id="nav">
+            
+        
+        </div><br>
+        <div id="section">
+            <span id="banner1">
+            
+            <li id="nav1" class="nav">
+               <ul class="nav-attribute">카테고리</ul>
+                <a href="page2.html"><ul class="nav-attribute">
+                    캠핑
+                
+                    </ul></a>
+             
+                <a href="page3.html">
+                    <ul class="nav-attribute">
+                    휴양림
+                    
+                    </ul></a>
+                <a href="page4.html"><ul class="nav-attribute">
+                    낚시
+                   
+                
+                    </ul></a>
+                <a href="page5.html"><ul class="nav-attribute">
+                    등산
+                    
+                
+                    </ul></a>
+               
+                
+                    
+            </li>
+            </span>
+            <span id="body"></span>
+            <span id="banner2">
+                <img class = "banner" src="https://plus.unsplash.com/premium_photo-1658506808149-4aa492795431?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y2FtcGluZ3xlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60" alt="banner1">
+                
+            </span>
+        </div>
+   <!-- <script>
+        for(var r = 0; r < 15; r++){
+            var body = document.getElementById("body")
+            var i = document.createElement("img");
+            i.setAttribute("src", "https://i0.wp.com/petercamping.com/wp-content/uploads/2020/03/2020-03-07-01-04-17.jpg?resize=497%2C311&ssl=1");
+            i.setAttribute("class", "product") ;
+            i.setAttribute("style", "margin: 20px") ;
+            body.appendChild(i);
+            i.style.width = '156px';
+            i.style.height = 'auto';
+            var p = document.createElement("p")
+//            p.innerHTML = "텐트 300,000"
+//            body.appendChild(p);
+        }
+    </script>-->
+    </BODY>
+    
+</HTML>
