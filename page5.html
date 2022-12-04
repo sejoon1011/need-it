@@ -50,7 +50,7 @@
             position: fixed;
             width: 70%;
             height: 70%;
-            border: 3px solid #000000;
+    
             margin-left: 15%;
         }
         #banner1{
@@ -93,7 +93,7 @@
     </HEAD>
     <BODY>
             <H1>
-            <a href = "page1.html">여행을 떠나요</a>
+            <a href = "page1.html">니딧</a>
             <INPUT TYPE="TEXT" ID="search"/>
         </H1>
         <div id="nav">
@@ -177,6 +177,16 @@
                     "<ul><input type=\"button\" value=\"검색\" name=\"search\"></ul>"
                 document.getElementById(clicked_id).appendChild(li);
         }
+             else if(clicked_id == "price"){
+                var li = document.createElement("li");
+                li.setAttribute("id", "place");
+                 
+                li.innerHTML = " <ul><input type=\"checkbox\" name=\"search\">등산용품 견적맞추기</ul>" +
+                "<ul><input type=\"checkbox\" name=\"search\">등산용품 견적추천</ul>"+
+                "<ul><input type=\"checkbox\" name=\"search\">등산용품 견적상담</ul>"+
+                    "<ul><input type=\"button\" value=\"검색\" name=\"search\"></ul>"
+                document.getElementById(clicked_id).appendChild(li);
+            }
         }
         
         
